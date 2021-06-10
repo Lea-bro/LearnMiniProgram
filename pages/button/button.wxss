@@ -1,0 +1,5 @@
+/* pages/button/button.wxss */
+.red{
+  background-color:red;
+  color: aliceblue;
+}

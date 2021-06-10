@@ -1,0 +1,24 @@
+<!-- 1.input的基本使用 value必填-->
+<input type="text" value="哈哈"/>
+
+<!-- 2.type：决定键盘类型 -->
+<input type="text" value="文本输入键盘"/>
+<input type="number" value="数字输入键盘"/>
+<input type="idcard" value="身份证输入键盘"/>
+<input type="digit" value="带小数点的数字键盘"/>
+
+<!-- 3.password:暗文 -->
+<input type="text" password/>
+
+<!-- 4.placeholder:输入框为空时，占位符 -->
+<!-- disabled:是否禁用 -->
+<input placeholder="请输入文本" disabled="" />
+
+<!-- 5.input绑定事件 
+         bindinput用户输入事件。evet.detail
+         bindfocus获取焦点
+         bindblur失去焦点
+-->
+<input bindinput="handleInput" 
+       bindfocus="handleFocus" 
+       bindblur="handleBlur"/>

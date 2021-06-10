@@ -1,0 +1,24 @@
+<!-- 1.view的基本使用，相当于div，块级元素 -->
+<view>哈哈</view>
+<view>呵呵</view>
+
+<!-- 2.hover-class:当用户点击组件时，显示的样式 -->
+<button class="box" 
+        hover-class="hover-box" 
+        hover-stay-time="1000" 
+        hover-start-time="500">
+        wo
+</button>
+
+<!-- 3.阻止祖先的点击 -->
+<view class="box1" hover-class="hover-box1">
+  <button class="box" 
+        hover-class="hover-box" 
+        hover-stay-time="1000" 
+        hover-start-time="500" 
+        hover-stop-propagation="{{true}}">
+        wo
+  </button>
+</view>
+
+    

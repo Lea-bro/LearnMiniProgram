@@ -1,0 +1,19 @@
+<!--pages/text/text.wxml-->
+<!-- 1.text的基本使用,相当于span，行内元素 -->
+<text>Hello world\n</text>
+<text>你好小程序\n</text>
+
+<!-- <textarea name="" id="" cols="30" rows="10" value="abc"></textarea> -->
+
+<!-- 2.默认情况下text文本长按是不能选中的 -->
+<!-- 需要把selectable：true -->
+<text selectable='{{true}}'>Hello nihao\n</text>
+
+<!-- 3.space:决定文本空格大小 -->
+<text>Hello world\n</text>
+<text space="nbsp">Hello world\n</text>
+<text space="emsp">Hello world\n</text>
+<text space="ensp">Hello world\n</text>
+
+<!-- 4.decode属性：是否解码文本 -->
+<text decode>5 &gt; 3</text>
